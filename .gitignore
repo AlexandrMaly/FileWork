@@ -1,0 +1,13 @@
+# Default ignored files
+/shelf/
+/.idea/workspace.xml
+/out/production/File-Work-IO-task/App/Application.class
+/out/production/File-Work-IO-task/utils/Constants.class
+/File-Work-IO-task.iml
+/out/production/File-Work-IO-task/Service/FileReadService.class
+/out/production/File-Work-IO-task/Service/FileWriterService.class
+/out/production/File-Work-IO-task/Main.class
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/uiDesigner.xml
+/.idea/vcs.xml
