@@ -18,14 +18,20 @@ public class Application {
                 1 - create file and write something;
                 2 - read the file
                 """);
-        int option = Integer.parseInt(sc.nextLine());
-        if (option == 1) {
-            createFile();
-        } else if (option == 2) {
-            readFile();
-        } else
-            System.out.println("something wrong");
+        try {
+            int option = Integer.parseInt(sc.nextLine());
+            if (option == 1) {
+                createFile();
+            } else if (option == 2) {
+                readFile();
+            } else
+                System.out.println("You entered incorrect number");
+        } catch (NumberFormatException e) {
+            System.out.println("You entered not number");
+        }
     }
+
+
 
     private static void createFile() {
         System.out.println("Enter the file name: ");
